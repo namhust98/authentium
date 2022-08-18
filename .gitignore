@@ -1,0 +1,13 @@
+.env
+coverage
+coverage.json
+
+**/venv
+.coverage
+.idea/
+__pycache__
+*.pyc
+
+.vscode/*
+
+envexberry

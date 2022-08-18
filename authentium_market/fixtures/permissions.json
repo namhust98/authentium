@@ -1,0 +1,82 @@
+[
+    {
+        "model": "authentium_market.permission",
+        "pk": 1,
+        "fields": {
+            "name": "oms-trading:*",
+            "description": "Trading | All the trading permissions"
+        }
+    },
+    {
+        "model": "authentium_market.permission",
+        "pk": 2,
+        "fields": {
+            "name": "oms-account:*",
+            "description": "Account Data | All the account permissions"
+        }
+    },
+    {
+        "model": "authentium_market.permission",
+        "pk": 3,
+        "fields": {
+            "name": "oms-history:*",
+            "description": "Account History | All the history permissions"
+        }
+    },
+    {
+        "model": "authentium_market.permission",
+        "pk": 4,
+        "fields": {
+            "name": "oms-trading:place_order",
+            "description": "Place order | Allow to place order"
+        }
+    },
+    {
+        "model": "authentium_market.permission",
+        "pk": 5,
+        "fields": {
+            "name": "oms-trading:cancel_order",
+            "description": "Cancel order | Allow to cancel order"
+        }
+    },
+    {
+        "model": "authentium_market.permission",
+        "pk": 6,
+        "fields": {
+            "name": "oms-account:orders",
+            "description": "Orders real time data | Allow real time orders stream"
+        }
+    },
+    {
+        "model": "authentium_market.permission",
+        "pk": 7,
+        "fields": {
+            "name": "oms-account:balances",
+            "description": "Wallet real time data | Allow real time balance stream"
+        }
+    },
+    {
+        "model": "authentium_market.permission",
+        "pk": 8,
+        "fields": {
+            "name": "oms-setup:instruments",
+            "description": "Instruments data | Allow getting instruments data"
+        }
+    },
+    {
+        "model": "authentium_market.permission",
+        "pk": 9,
+        "fields": {
+            "name": "oms-history:orders",
+            "description": "Orders history | Allow to get orders history"
+        }
+    },
+    {
+        "model": "authentium_market.permission",
+        "pk": 10,
+        "fields": {
+            "name": "oms-history:trades",
+            "description": "Trades history | Allow to get orders history"
+        }
+    }
+]
